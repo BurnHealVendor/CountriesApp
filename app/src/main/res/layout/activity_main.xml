@@ -10,7 +10,6 @@
         android:id="@+id/countriesContainer"
         android:name="com.example.countriesapp.views.CountriesFrag"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true" />
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

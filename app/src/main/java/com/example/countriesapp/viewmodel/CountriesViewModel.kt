@@ -7,7 +7,6 @@ import androidx.lifecycle.viewModelScope
 import com.example.countriesapp.rest.CountriesRepo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import javax.inject.Inject
