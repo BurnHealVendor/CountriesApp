@@ -21,7 +21,6 @@ import javax.inject.Singleton
 class NetworkModule {
 
     @Provides
-    @Singleton
     fun providesNetworkService(okHttpClient: OkHttpClient) =
         Retrofit.Builder()
             .baseUrl(CountriesAPI.BASE_URL)
@@ -31,7 +30,6 @@ class NetworkModule {
             .create(CountriesAPI::class.java)
 
     @Provides
-    @Singleton
     fun providesOkHttpClient() =
         OkHttpClient.Builder()
             .addInterceptor(HttpLoggingInterceptor().apply {
